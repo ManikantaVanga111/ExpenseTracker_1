@@ -66,14 +66,14 @@ namespace Expensive_Tracker
                 AB = AB + t.Amount;
                 
             }
-            if (AB < 0)
+           /* if (AB < 0)
             {
                 AB = AB * -1;
             }
             else
             {
                 AB = AB;
-            }
+            }*/
             Console.WriteLine($"The Available Balance is {AB}");
         }
     }
